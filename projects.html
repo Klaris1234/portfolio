@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>My Projects</h1>
+    </header>
+    
+    <section id="projects">
+        <div class="projects-container">
+            <!-- Right panel: Scrollable list of projects -->
+            <div class="project-list">
+                <h2>Select a Project</h2>
+                <div class="project-item" onclick="showProject('civique')">Civique - UX Design</div>
+                <div class="project-item" onclick="showProject('bigFruits')">BigFruits - Web dev</div>
+                <div class="project-item" onclick="showProject('ocbcAtm')">OCBC ATM - Web dev and enhancemenrs</div>
+                <div class="project-item" onclick="showProject('heartComesFirst')">Heart Comes First - Mobile App</div>
+                <div class="project-item" onclick="showProject('safeGlobe')">SafeGlobe - Web dev</div>
+                <div class="project-item" onclick="showProject('beeHive')">BeeHive - web dev</div>
+                <div class="project-item" onclick="showProject('ngeeAnnCity')">Ngee Ann City - Game Program</div>
+                <div class="project-item" onclick="showProject('sharedough')">Sharedough - E-commerce</div>
+            </div>
+    
+            <!-- Left panel: Project details -->
+            <div class="project-details">
+                <div id="project-content">
+                    <h2>Project Details</h2>
+                    <p>Select a project from the list to see its details.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
