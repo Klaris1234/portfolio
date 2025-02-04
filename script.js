@@ -113,7 +113,7 @@ function showProject(projectName) {
         <div class="project-images-container">
             ${imagesHTML}
         </div>
-        <p><a href="${project.github}" target="_blank">View on GitHub</a></p>
+        <p><a href="${project.github}" target="_blank">View GitHub Repository</a></p>
         ${project.proposalLink ? `<p><a href="${project.proposalLink}" target="_blank">View Proposal</a></p>` : ''}
         ${project.mobileAppPrototype ? `<p><a href="${project.mobileAppPrototype}" target="_blank">View Mobile App Prototype</a></p>` : ''}
         ${project.smartwatchAppPrototypeLink ? `<p><a href="${project.smartwatchAppPrototypeLink}" target="_blank">View Smartwatch App Prototype</a></p>` : ''}
